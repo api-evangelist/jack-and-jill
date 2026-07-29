@@ -1,8 +1,31 @@
 aid: jack-and-jill
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jack-and-jill.png
 name: Jack & Jill
-description: 'Jack & Jill is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Jack & Jill is an AI hiring platform built around two complementary AI agents. Jack is a
+  free AI career agent for candidates: it scans roughly 15 million jobs daily, runs mock
+  interviews, benchmarks salary, offers career-clarity coaching, and introduces candidates
+  directly to hiring managers, staying fiduciary to the candidate. Jill is an AI recruiter for
+  companies: a hiring team briefs Jill on a role and it returns a curated shortlist from Jack's
+  network of 302,000+ pre-vetted professionals (engineers, product, design, marketing, sales,
+  operations, leadership) within minutes, handling outreach, scheduling, and pipeline
+  management. Operated by Tinker Tailor Talent Ltd. (founded 2024, London and San Francisco),
+  the company raised a $20M seed round led by Creandum. Pricing is a 10% success fee on
+  first-year base salary charged only on a successful hire, with a three-month full-refund
+  guarantee; free for candidates. There is no public developer API today (confirmed via the
+  site's ai.txt); this profile captures the company's real published web, AI-discovery, and
+  security surface.
 url: https://raw.githubusercontent.com/api-evangelist/jack-and-jill/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +33,23 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-entity: Tinker Tailor Talent Ltd.
+x-founded: '2024'
+x-headquarters: London, UK; San Francisco, US
+x-funding: $20M Seed (led by Creandum)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Recruiting
+- Hiring
+- Talent
+- HR Tech
+- AI Agents
+- Job Search
+- Recruitment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +59,42 @@ maintainers:
 common:
 - type: Website
   url: https://jackandjill.ai/
+- type: DeveloperPortal
+  url: https://jackandjill.ai/docs
+- type: Documentation
+  url: https://jackandjill.ai/docs
+- type: Pricing
+  url: https://jackandjill.ai/pricing
+- type: SignUp
+  url: https://app.jackandjill.ai/sign-up
+- type: Login
+  url: https://app.jackandjill.ai/sign-in
+- type: TermsOfService
+  url: https://jackandjill.ai/terms
+- type: PrivacyPolicy
+  url: https://jackandjill.ai/privacy
+- type: Blog
+  url: https://jackandjill.ai/blog
+- type: Support
+  url: https://jackandjill.ai/faq
+- type: LinkedIn
+  url: https://www.linkedin.com/company/jackandjillai
+- type: Twitter
+  url: https://x.com/jackandjillai
+- type: LLMsTxt
+  url: llms/jack-and-jill-llms.txt
+- type: WellKnown
+  url: well-known/jack-and-jill-well-known.yml
+- type: SecurityTxt
+  url: well-known/jack-and-jill-security.txt
+- type: DomainSecurity
+  url: security/jack-and-jill-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/jack-and-jill-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/jack-and-jill-security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

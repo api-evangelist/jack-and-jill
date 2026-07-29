@@ -1,0 +1,43 @@
+# AI Information for https://www.jackandjill.ai
+# Format: ai.txt (https://site.google.com/view/ai-txt)
+
+Site-Name: Jack & Jill
+Site-URL: https://www.jackandjill.ai
+Site-Description: Jack is a free AI career agent. Jill is an AI recruiter. Together they connect companies with remarkable people from Jack's network of 302,483 pre-vetted professionals: engineers, marketers, salespeople, and operators.
+
+# Permissions
+Crawling: allowed
+Training: allowed
+Retrieval: allowed
+Attribution-Required: yes
+
+# Content Endpoints
+LLMs-TXT: https://www.jackandjill.ai/llms.txt
+LLMs-Full-TXT: https://www.jackandjill.ai/llms-full.txt
+Sitemap: https://www.jackandjill.ai/sitemap.xml
+Robots: https://www.jackandjill.ai/robots.txt
+
+# API Endpoints
+# No public API currently available
+
+# Products
+Product: Jack - AI career agent with a network of 302,483 professionals across engineering, marketing, sales, and operations
+Product: Jill - AI recruiter that matches companies with ideal candidates from Jack's network in minutes
+
+# Key Facts
+- 1,000 companies working with Jill
+- 302,483 candidates in Jack's network
+- 10% of first-year base salary pricing (vs 20-30% for agencies)
+- Seed to Series C startup focus
+- London and San Francisco markets
+
+# Contact
+Contact-Email: hello@jackandjill.ai
+
+# Social
+Twitter: @jackandjillai
+LinkedIn: https://www.linkedin.com/company/jackandjillai
+
+# Legal
+Terms: https://www.jackandjill.ai/terms
+Privacy: https://www.jackandjill.ai/privacy
