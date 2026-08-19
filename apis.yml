@@ -37,7 +37,7 @@ x-legal-entity: Tinker Tailor Talent Ltd.
 x-founded: '2024'
 x-headquarters: London, UK; San Francisco, US
 x-funding: $20M Seed (led by Creandum)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
