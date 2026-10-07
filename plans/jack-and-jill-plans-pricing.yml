@@ -1,0 +1,51 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.jackandjill.ai/pricing/us
+sources:
+- https://www.jackandjill.ai/pricing/us
+- https://jackandjill.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: US pricing page for hiring product; annual billing noted to "Save $600 per year for every slot".
+plan_count: 4
+currency: USD
+plans:
+- name: Meet Jill
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  unit: slot
+  included_quota: One slot to work one role, 20 intro requests a month, no card details required, Slack
+    integration included
+- name: Hire Jill
+  price_text: $199 / slot / month
+  price: 199
+  currency: USD
+  period: month
+  unit: slot
+  included_quota: Each slot contains one role, Slack and Ashby integrations included, public search included,
+    50 intro requests per slot
+- name: Scale Jill
+  price_text: Talk to us
+  period: none
+  included_quota: Volume pricing on slots and intro requests, annual agreement invoiced, dedicated onboarding
+- name: Jack (candidates)
+  price_text: $0
+  price: 0
+  currency: USD
+  period: none
+  included_quota: Free for candidates
+rate_limit_statements:
+- 20 intro requests a month
+- 50 intro requests per slot
