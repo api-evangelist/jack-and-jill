@@ -77,6 +77,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/jack-and-jill-plans-pricing.yml
 - type: Website
   url: https://jackandjill.ai/
 - type: DeveloperPortal
