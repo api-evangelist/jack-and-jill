@@ -49,3 +49,41 @@ plans:
 rate_limit_statements:
 - 20 intro requests a month
 - 50 intro requests per slot
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Meet Jill
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Hire Jill
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Scale Jill
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Jack (candidates)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - none
