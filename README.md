@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jack & Jill is a company surfaced as a portfolio company of creandum and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Jack & Jill is an AI hiring platform built around two complementary AI agents. Jack is a free AI career agent for candidates: it scans roughly 15 million jobs daily, runs mock interviews, benchmarks salary, offers career-clarity coaching, and introduces candidates directly to hiring managers, staying fiduciary to the candidate. Jill is an AI recruiter for companies: a hiring team briefs Jill on a role and it returns a curated shortlist from Jack's network of 302,000+ pre-vetted professionals (engineers, product, design, marketing, sales, operations, leadership) within minutes, handling outreach, scheduling, and pipeline management. Operated by Tinker Tailor Talent Ltd. (founded 2024, London and San Francisco), the company raised a $20M seed round led by Creandum. Pricing is a 10% success fee on first-year base salary charged only on a successful hire, with a three-month full-refund guarantee; free for candidates. There is no public developer API today (confirmed via the site's ai.txt); this profile captures the company's real published web, AI-discovery, and security surface.
 
-Backed by: creandum — https://jackandjill.ai/
+**Areas:** Company · Artificial Intelligence · Recruiting · Hiring · Talent · Human Resources · AI Agents · Job Search
+
+## Jack & Jill on APIs.io
+
+Everything profiled for Jack & Jill is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jack-and-jill/](https://apis.io/providers/jack-and-jill/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jack And Jill Domain Security](https://apis.io/security/jack-and-jill/jack-and-jill-domain-security/)
+- [Jack And Jill Vulnerability Disclosure](https://apis.io/security/jack-and-jill/jack-and-jill-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Jack And Jill Plans Pricing](https://apis.io/plans/jack-and-jill/jack-and-jill-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jackandjill.ai/)
+- [Documentation](https://jackandjill.ai/docs)
+- [Pricing](https://jackandjill.ai/pricing)
+- [Sign up](https://app.jackandjill.ai/sign-up)
+- [Support](https://jackandjill.ai/faq)
+- [Blog](https://jackandjill.ai/blog)
+- [Terms of service](https://jackandjill.ai/terms)
+- [Privacy policy](https://jackandjill.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 26.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 69.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jack-and-jill/](https://apis.io/providers/jack-and-jill/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jack & Jill: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jack-and-jill/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
